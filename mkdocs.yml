@@ -1,0 +1,21 @@
+site_name: TigerGraph Student Developers Club
+
+nav:
+  - Home: index.md
+  - Events: 
+    - "All Events": events/events.md
+    - "TigerGraph Clap Wars": events/clap.md
+    - "Tiger Tank": events/tank.md
+  - Resources: resources.md
+  - "Join Us!": join.md
+
+theme:
+  name: material
+  palette: 
+    primary: deep orange
+    accent: orange
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - attr_list
